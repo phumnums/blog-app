@@ -15,8 +15,6 @@ export default function TopBar() {
             <div className="topCenter">
                 <ul className="topList">
                     <li className="topListItem">HOME</li>
-                    <li className="topListItem">ABOUT</li>
-                    <li className="topListItem">CONTACT</li>
                     <li className="topListItem">WRITE</li>
                     <li className="topListItem">LOGOUT</li>
                 </ul>
@@ -25,7 +23,7 @@ export default function TopBar() {
             <div className="topRight">
                 <img 
                 className="topImg"
-                    src="https://pbs.twimg.com/media/FoYCD52agAILbvK?format=jpg&name=small" 
+                    src="https://pbs.twimg.com/media/FqCabA2agAA9URU?format=jpg&name=900x900" 
                     alt="" 
                 />
                 <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>

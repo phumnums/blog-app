@@ -31,12 +31,13 @@ export default function TopBar() {
             <div className="topRight">
                 {
                     user ? (
-
+                        <Link className="link" to="/settings">
                         <img 
                             className="topImg"
                             src="https://pbs.twimg.com/media/FqCabA2agAA9URU?format=jpg&name=900x900" 
                             alt="" 
                         />
+                        </Link>
                     ) : (
                         <ul className="topList">
                             <li className="topListItem">
